@@ -1,7 +1,7 @@
 # HTML-CSS
  Estudos HTML5 e CSS3
 
-Meus projetos de estudos sobre HTML5 e CC3.
+Meus projetos de estudos sobre HTML5 e CSS3.
 
 <h1>Projetos</h1>
 
