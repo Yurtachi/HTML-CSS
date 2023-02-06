@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        
+        header{
+            display: inline-block;
+            margin-bottom: 30px;
+            min-width: 800px;
+            max-width: 1000px;
+            background-color: aliceblue;
+            border-radius: 50px;
+            box-shadow: 4px 4px 5px 3px #1d15478e;
+
+        }
+
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-image: linear-gradient(to bottom, #312375, #4632A8);
+            background-attachment: fixed;
+            margin: auto;
+           
+        }
+
+        main{
+            margin: auto;
+            background-color: aliceblue;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.342); /* X Y blur spread*/
+            padding: 10px;
+            min-width: 300px;
+            max-width: 1000px;
+        }
+
+        a{
+            color: darkred;
+            padding: 2px 5px; /* = padding: 2px 5px 2px 5px */
+            text-decoration: none;
+            
+        }
+
+        nav > a{ /*Todo link(tag "a") dentro do "nav" estará em negrito*/
+            font-weight: bold;
+            
+        }
+
+        #tittleIMG{
+            display: inline-block;
+            /*height: 115px;*/
+            width: 7%;
+            margin: 5px;
+            padding-left: 10px;
+            padding-top: 5px;
+            
+        }
+
+        .autor{
+            font-style: italic;
+            margin-left: 20px;
+        }
+
+        #tittle{
+            font-family: cursive;
+            margin-left: 20px;           
+        }
+
+        #Tlink{
+            margin-left: 50px;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        .direc{
+            padding-top: 2px;
+            font-size: 14px;
+            background-color: aliceblue;
+            width: 70px;
+            border-radius: 10px 10px 10px 10px;
+            text-align: center;
+            display: inline-block;
+            margin: 1px 5px;
+            height: 21px;
+
+        }
+        
+        footer{
+            border-radius: 2px;
+            position: relative;
+            bottom: 0%;
+            width: 100%;
+
+        }
+
+        footer > p{ 
+            text-align: center;
+            background-color: black;
+            color: aliceblue;
+            padding: 1px;
+            
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <a href="caixa01.html"><img id="tittleIMG" src="https://static.vecteezy.com/system/resources/previews/001/206/198/non_2x/mountain-icon-png.png" alt="Home"> </a>
+    <header > <!-- Cabeçalho -->
+            <h1 id="tittle" >Home do site</h1>
+            <nav id="Tlink">
+                <a href="@">Link</a>
+                <a href="@">Link</a>
+                <a href="@">Link</a>
+                <a href="@">Link</a>
+                <a href="@">Link</a>
+            </nav>  <!-- Navegação -->
+    </header>
+
+
+    <main><!-- Conteúdo principal -->
+        <section id="assuntos"> <!-- Sessões -->
+            <article>
+                <h2>Lorem</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, dolorem quos. Odio, adipisci accusamus necessitatibus doloribus nostrum a laboriosam quaerat voluptatem soluta maxime ad praesentium reprehenderit, delectus harum, unde repellendus!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem beatae minima et cum nihil, delectus veniam laborum quod quisquam deserunt exercitationem illum eius repellat explicabo ut, alias nisi provident. Sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum officia earum deserunt vero praesentium perspiciatis asperiores optio, autem illum cumque facilis maxime id ex tempora nobis iusto? Ut, deserunt doloribus?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora inventore atque repellat. Sunt dicta consequuntur minima aliquam molestiae rem eligendi tempore deleniti! Culpa laboriosam animi quisquam asperiores debitis! Molestiae, <tempora class="lore">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A natus sapiente facere at laboriosam ea, quibusdam enim harum magni autem quis minima fugit veniam perspiciatis soluta, deleniti dicta explicabo! Eum?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates distinctio eius aliquid facere neque, eligendi tempore nobis natus, maiores laborum sit iure. Voluptates veniam rem, quae quasi asperiores laboriosam facere! lore
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident maxime ea laboriosam, cum corporis non magni aperiam vero in aut, quos nulla a eligendi ad quibusdam? Magnam eum quia perferendis!
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, dolorem quos. Odio, adipisci accusamusnecessitatibus doloribus nostrum a laboriosam quaerat voluptatem soluta maxime ad praesentiumreprehenderit, delectus harum, unde repellendus!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem beatae minima et cum nihil, delectus veniam laborum quod quisquam deserunt exercitationem illum eius repellat explicabo ut, alias nisi provident. Sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum officia earum deserunt vero praesentium perspiciatis asperiores optio, autem illum cumque facilis maxime id ex tempora nobis iusto? Ut, deserunt doloribus?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora inventore atque repellat. Sunt dicta consequuntur minima aliquam molestiae rem eligendi tempore deleniti! Culpa laboriosam animi quisquam asperiores debitis! Molestiae, <tempora class="lore">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A natus sapiente facere at laboriosam ea, quibusdam enim harum magni autem quis minima fugit veniam perspiciatis soluta, deleniti dicta explicabo! Eum?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates distinctio eius aliquid facere neque, eligendi tempore nobis natus, maiores laborum sit iure. Voluptates veniam rem, quae quasi asperiores laboriosam facere! lore
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, dolorem quos. Odio, adipisci accusamus necessitatibus doloribus nostrum a laboriosam quaerat voluptatem soluta maxime ad praesentium reprehenderit, delectus harum, unde repellendus!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem beatae minima et cum nihil, delectus veniam laborum quod quisquam deserunt exercitationem illum eius repellat explicabo ut, alias nisi provident. Sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum officia earum deserunt vero praesentium perspiciatis asperiores optio, autem illum cumque facilis maxime id ex tempora nobis iusto? Ut, deserunt doloribus?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora inventore atque repellat. Sunt dicta consequuntur minima aliquam molestiae rem eligendi tempore deleniti! Culpa laboriosam animi quisquam asperiores debitis! Molestiae, <tempora class="lore">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A natus sapiente facere at laboriosam ea, quibusdam enim harum magni autem quis minima fugit veniam perspiciatis soluta, deleniti dicta explicabo! Eum?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates distinctio eius aliquid facere neque, eligendi tempore nobis natus, maiores laborum sit iure. Voluptates veniam rem, quae quasi asperiores laboriosam facere! lore
+                </tempora>
+                </p>
+                <aside>
+                    <p class="autor">-Artigo escrito por Fulano</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+
+
+    <footer>
+        
+        <nav class=direc><a href="caixa01.html">Voltar</a></nav>
+        
+        <nav class=direc><a href="caixa03.html">Avançar</a></nav>
+        
+        <p>Desenvolvido por Yurtachi</p>
+    </footer>
+</body>
+</html>

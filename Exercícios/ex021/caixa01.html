@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{
+            background-color: lightblue;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: blue;
+            margin: auto;
+            padding: 10px 10px;
+        }
+
+        .direc{
+            padding-top: 2px;
+            font-size: 14px;
+            color: white;
+            background-color: #250df5;
+            width: 70px;
+            border-radius: 10px 10px 10px 10px;
+            text-align: center;
+            display: inline-block;
+            margin: 1px 5px;
+            height: 21px;
+
+        }
+
+        .trac{
+            border: 10px double #3efa05;
+            color: #0e0e8a;
+        }
+
+        footer{
+            bottom: 0;
+            position: absolute;
+        }
+
+        a{
+            text-decoration: none;
+            color: currentColor;
+        }
+
+        a:hover{
+            color: aqua;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a class="trac" href="#">links são exemplos de caixa inline-level</a>. Vamos ver como tudo isso funciona.</p>
+
+
+    <footer>
+
+        <nav class=direc><a href="caixa02.html">Avançar</a></nav>
+    </footer>
+</body>
+</html>

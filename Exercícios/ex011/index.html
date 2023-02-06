@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <style>
+        h1{
+            color: rgb(255, 255, 255);
+        }
+        p{
+            color: darkgreen;
+        }
+    </style>
+    <title>Midias em HTML5</title>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="Imagens/foto-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-M.png" type="image/png">
+        <img src="Imagens/foto-G.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Eminem é foda</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Eminem - Lose Yourself HD _160k.mp3" type="audio/mpeg">
+        <source src="midia/Eminem - Lose Yourself HD _160k.ogg" type="audio/ogg">
+        <source src="midia/Eminem - Lose Yourself HD _160k.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não conseguiu reproduzir op áudio. <a href="midia/Eminem - Lose Yourself HD _160k.mp3"> Clique aqui para baixar o arquivo.</a></p>
+    </audio>
+    <!-- MP3 WAV OGG-->
+
+    <h1></h1>
+</head>
+<body>
+    
+</body>
+</html>
