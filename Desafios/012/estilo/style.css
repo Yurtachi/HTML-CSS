@@ -1,6 +1,10 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+:root {
+    --fonteTittle: 'Playfair Display', serif;
+    --fonteParagr: Roboto, sans-serif;
+}
  
  
  /*Configuração global*/
@@ -18,12 +22,12 @@ html, body{
 
 
 h1{
-    font-family: 'Playfair Display', serif;
+    font-family: var(--fonteTittle);
 
 }
 
 p{
-    font-family: Roboto, sans-serif;
+    font-family: var(--fonteParagr);
 
 }
 
@@ -66,7 +70,8 @@ section.imagem{
 }
 
 section.imagem > p {
-    width: 700px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgb(36, 36, 36);
 
 }
