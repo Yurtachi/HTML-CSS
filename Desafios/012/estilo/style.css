@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+ 
+ 
+ /*Configuração global*/
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+
+
+}
+
+
+h1{
+    font-family: 'Playfair Display', serif;
+
+}
+
+p{
+    font-family: Roboto, sans-serif;
+
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+header > h1 {
+    padding: 50px 0px;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding: 50px;
+
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+
+}
+
+section.imagem{
+    background-color: rgb(58, 58, 58);
+    color: white;
+
+}
+
+section.imagem > p {
+    width: 700px;
+    background-color: rgb(36, 36, 36);
+
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 5px;
+
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+footer a:hover{
+    text-decoration: underline;
+
+}
